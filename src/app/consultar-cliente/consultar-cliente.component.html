@@ -1,0 +1,36 @@
+
+<form class="form-inline">
+  
+  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+    <div class="input-group-addon">Documento Cliente:</div>
+    <input type="text" class="form-control" id="idCliente" placeholder="Type here">
+  </div>
+    <button class="btn btn-primary">Buscar</button>
+</form>
+
+<div id="tablaCuposActivos">
+
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Id Cupo</th>
+        <th>Tipo Cupo</th>
+        <th>Cupo Original</th>
+        <th>Cupo Disponible</th>
+        <th>Fecha Vencimiento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Comite</td>
+        <td>1.500</td>
+        <td>1.200</td>
+        <td>12/02/2018</td>
+      </tr>
+    
+    </tbody>
+  </table>
+</div>
+
+<app-detalle-cliente></app-detalle-cliente>

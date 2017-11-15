@@ -1,0 +1,159 @@
+html, body {
+    font-size: 15px;
+    min-height: 100% !important;
+    margin:0px;
+    height:100% !important;
+ }
+
+.container{
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+#encabezado{
+    height: 7rem;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+       
+}
+#encabezado #botonesEncabezado{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 10rem;
+    
+}
+#zonaMenu{
+  border-right: 3px solid #23356F;
+}
+
+#paginaPrincipal{
+    margin: 0 !important;
+    min-height: 100% !important;
+}
+#paginaPrincipal .row{
+    margin-top: 3rem;
+    min-height: 100% !important;
+}
+.bootstrap-vertical-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+
+#menuPrincipal, #menuPrincipal2 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+      }
+
+  #menuPrincipal ul, #menuPrincipal2 ul{
+    padding: 0;
+    list-style: none;
+    margin: 1rem 0 0 0; }
+  
+  #menuPrincipal ul li a,  #menuPrincipal2 ul li a {
+    display: block;
+    padding: .8rem 0;
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid #23356F;
+    border-radius: .2rem;
+    text-decoration: none; }
+  
+  #menuPrincipal ul li a:hover,
+  #menuPrincipal ul li.active a,
+  #menuPrincipal2 ul li a:hover,
+  #menuPrincipal2 ul li.active a {
+    background: #48B2E8; }
+
+.bootstrap-vertical-nav .collapse {
+        display: block;
+  }
+
+.seleccionadoMenu{
+    background: #23356F !important;
+    color:white !important;
+    border-radius: .5rem !important;
+
+}
+#tablaCuposActivos{
+    margin: 5rem 0;
+}
+#tablaCuposActivos table thead{
+   color: white;
+   background-color: #23356F
+}
+#detalledatosCliente, #datosCliente, #datosCupo{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+   
+}
+#detalledatosCliente{
+   margin-top: 10rem;
+}
+#datosCliente table .etiqueta, #datosCupo table .etiqueta{
+    background-color: #23356F;
+    color: white;
+}
+#datosCliente table td, #datosCupo table td {
+    width: 50rem;
+    height: 3rem;
+    border-radius: 5px;
+    
+}
+  
+  
+
+
+
+
+
+
+
+
+
